@@ -113,8 +113,7 @@ npx nx run nikshy-setu-mob:start
 npx nx run nikshy-setu-web:serve
 ```
 
-6. **Build Android AAB:**
-
+6. **Build Android AAB:** (To make a production build, ensure the nikshay_setu_prod.keystore file is present.)
 ```bash
 npm run build-bundle
 ```
