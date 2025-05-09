@@ -29,7 +29,7 @@ The Ni-kshay Setu app ([https://nikshay-setu.in/](https://nikshay-setu.in/)), al
 - [Setup Instructions](#setup-instructions)
 - [Conventional Branching](#conventional-branching)
 - [Conventional Commits](#conventional-commits)
-- [Contribution Guidelines](#contribution-guidelines)
+- [Contribution Guidelines](./CONTRIBUTING.md)
 - [License](#license)
 
 ## Introduction
