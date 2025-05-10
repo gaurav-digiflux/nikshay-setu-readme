@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=F7971E,FFD200&height=150&section=header&text=Ni-kshay%20Setu&fontSize=40&fontColor=ffffff&animation=scaleIn" alt="Ni-kshay Setu banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=rounded&height=200&color=gradient&text=Ni-kshay%20SETU&textBg=false&section=header&reversal=false&fontAlignY=50&animation=scaleIn&fontColor=FFFFFF" alt="Ni-kshay Setu banner"/>
 </p>
 
 <p align="center">
