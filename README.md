@@ -32,8 +32,8 @@ The Ni-kshay Setu app ([https://nikshay-setu.in/](https://nikshay-setu.in/)), al
     - [Clone the repository](#clone-the-repository)
     - [Install dependencies](#install-dependencies)
     - [Set up environment variables](#set-up-environment-variables)
-    - [Run development (Android/iOS)](#run-development-androidios)
-    - [Run development (Web)](#run-development-web)
+    - [Run development Android/iOS](#run-development-androidios)
+    - [Run development Web](#run-development-web)
     - [Build Android AAB](#build-android-aab)
     - [Build Android project](#build-android-project)
     - [Build Web project](#build-web-project)
@@ -46,6 +46,7 @@ The Ni-kshay Setu app ([https://nikshay-setu.in/](https://nikshay-setu.in/)), al
 - [Third-Party Documentation](#third-party-documentation)
 - [Links](#links)
 - [License](#license)
+
 
 
 ## Introduction
