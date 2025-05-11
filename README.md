@@ -27,10 +27,26 @@ The Ni-kshay Setu app ([https://nikshay-setu.in/](https://nikshay-setu.in/)), al
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Setup Instructions](#setup-instructions)
+  - [Install Node version v20](#install-node-version-v20)
+  - [Installation](#installation)
+    - [Clone the repository](#clone-the-repository)
+    - [Install dependencies](#install-dependencies)
+    - [Set up environment variables](#set-up-environment-variables)
+    - [Run development (Android/iOS)](#run-development-androidios)
+    - [Run development (Web)](#run-development-web)
+    - [Build Android AAB](#build-android-aab)
+    - [Build Android project](#build-android-project)
+    - [Build Web project](#build-web-project)
 - [Conventional Branching](#conventional-branching)
 - [Conventional Commits](#conventional-commits)
-- [Contribution Guidelines](./CONTRIBUTING.md)
+- [Folder Structure](#folder-structure)
+  - [Apps](#apps)
+  - [Shared Folders](#shared-folders)
+  - [Dependency Graph](#dependency-graph)
+- [Third-Party Documentation](#third-party-documentation)
+- [Links](#links)
 - [License](#license)
+
 
 ## Introduction
 
