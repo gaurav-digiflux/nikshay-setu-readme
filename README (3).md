@@ -1,6 +1,6 @@
-<p align="center">
+ <p align="center">
   <a href="https://nikshay-setu.in" target="_blank">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&height=150&color=gradient&customColorList=0,2,2,5,30&text=Ni-kshay%20SETU&textBg=false&section=header&reversal=false&fontAlignY=50&animation=scaleIn&fontColor=FFFFFF" alt="Ni-kshay Setu banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Ni-kshay%20SETU&fontSize=50&fontAlign=50&fontAlignY=34" alt="Ni-kshay Setu banner"/>
   </a>
 </p>
 
@@ -22,7 +22,8 @@
 
 # Ni-Kshay SETU | Support to End TUberculosis
 
-The Ni-Kshay SETU app (https://nikshay-setu.in/), already with 44K+ subscribers, empowers healthcare providers to make informed decisions and contributes to India's mission to combat tuberculosis. Available on web, Android, and iOS platforms in 8 languages, it offers real-time updates, interactive modules, and personalized insights, revolutionizing TB knowledge management and accessibility across India.
+The Ni-kshay Setu app ([https://nikshay-setu.in/](https://nikshay-setu.in/)), already with **44K+ subscribers**, empowers healthcare providers to make informed decisions and contributes to India's mission to combat tuberculosis. Available on [web](https://nikshay-setu.in/), [Android](https://play.google.com/store/apps/details?id=com.iiphg.tbapp&pli=1), and [iOS](https://apps.apple.com/in/app/ni-kshay-setu/id1631331386) platforms in 8 languages, it offers real-time updates, interactive modules, and personalized insights, revolutionizing TB knowledge management and accessibility across India.
+
 
 ## Table of Contents
 
@@ -43,11 +44,12 @@ As a comprehensive digital platform, Ni-Kshay SETU revolutionizes the way health
 With an intuitive interface and user-friendly design, Ni-Kshay SETU offers a seamless experience across devices, making it accessible to a wide range of users. The web application allows healthcare providers to access the platform from any computer, while the Android and iOS applications provide mobility and convenience for on-the-go professionals.
 Through a range of interactive modules, virtual simulations, and case studies, Ni-Kshay SETU transforms learning into a dynamic and engaging experience. Healthcare providers can enhance their knowledge and skills by practicing TB case management in a risk-free environment. They can diagnose, prescribe treatment plans, and monitor patient progress, gaining invaluable experience and building their confidence in TB management.
 
+
 > The Ni-Kshay SETU app is part of the 'Closing the Gaps in TB care Cascade (CGC)' project, developed by the Indian Institute of Public Health, Gandhinagar (https://iiphg.edu.in/). This project aims to strengthen health systems' ability to comprehensively monitor and respond to the TB care cascade with quality improvement (QI) interventions. This digital solution is one of the key interventions of the project with the objectives to strengthen the knowledge support system of the health staff in TB patient-centric care and program management of the National TB Elimination Program.
 
-> Technological support for this project is provided by Digiflux Technologies Pvt. Ltd. (https://www.digiflux.io), contributing to the development and implementation of the digital solution.
+> IIPHG, The Union, and NTEP are proud partners in the development and implementation of Ni-Kshay SETU.
 
-IIPHG, The Union, and NTEP are proud partners in the development and implementation of Ni-Kshay SETU.
+> Technological support for this project is provided by Digiflux Technologies Pvt. Ltd. (https://www.digiflux.io), contributing to the development and implementation of the digital solution.
 
 ### 📊 Proactive Assessment System
 
