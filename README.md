@@ -1,6 +1,7 @@
 <p align="center">
   <a href="https://nikshay-setu.in" target="_blank">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&customColorList=0,2,2,5,30&text=Ni-kshay%20SETU&textBg=false&section=header&reversal=false&fontAlignY=50&animation=scaleIn&fontColor=FFFFFF&fontSize=30" alt="Ni-kshay Setu banner"/>
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Ni-kshay%20SETU&fontSize=50&fontAlign=50&fontAlignY=34" alt="Ni-kshay Setu banner"/>
   </a>
 </p>
 
