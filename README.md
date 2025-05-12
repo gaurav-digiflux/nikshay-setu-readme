@@ -65,22 +65,24 @@ Through a range of interactive modules, virtual simulations, and case studies, N
 
 ## Features
 
-- **Subscriber Monitoring:** Keep track of Ni-kshay SETU subscribers' progress and activities.
-- **Data Visualization:** Visualize data in a user-friendly way for easy analysis.
-- **Module Management:** Create and manage various modules like Diagnosis, Treatment, etc.
-- **Assessment Creation:** Develop and manage assessments, including state/district-level customization.
-- **Material and Document Management:** Provide access to essential resources.
-- **Leaderboard Progress:** Track progress using leaderboard parameters.
-- **Notification System:** Alert subscribers about important updates.
-- **Roles and Permissions:** Manage admin roles at state/district levels.
-- **Master Data Management:** Manage data like states, districts, health facilities, and cadres.
-- **Automatic News Feed:** Keep users updated with automated news feeds.
-- **Central Government Applications:** Integrate government program applications.
-- **Multilingual Support:** Manage multiple languages from the admin panel.
-- **Chatbot and Machine Learning:** Provide interactive, intelligent user experiences.
-- **Managing Health Facilities for TB:** Configure healthcare facility data, including location and services.
-- **Knowledge Connect:** Offer NTEP learning courses by cadre.
-- **Manage-TB:** Generate and share prescriptions via WhatsApp, Email, or direct download.
+- **Subscriber Monitoring:** Keep track of Ni-Kshay SETU subscribers' progress and activities.
+- **Data Visualization:** Visualize data in a user-friendly way for easy analysis, making it simpler to understand complex information.
+- **Module Management:** Create and manage various modules, including Diagnosis, Treatment, and other types of content to tailor the platform to your needs.
+- **Assessment Creation:** Develop and manage assessments for all subscribers or specific groups, allowing for better evaluation and customization. This can also be done at each state/district levels for their respective programs.
+- **Material and Document Management:** Organize and provide access to materials and documents for subscribers, ensuring they have the necessary resources.
+- **Leaderboard Progress:** Monitor subscribers' progress using leaderboard parameters, encouraging healthy competition and motivation.
+- **Notification System:** Implement a notification system to alert and remind subscribers about important information and activities.
+- **Roles and Permissions:** Manage roles and permissions for State and District level administrators to maintain control and security.
+- **Master Data Management:** Oversee master data such as states, districts, health facilities, and cadres to ensure accuracy and consistency in the system.
+- **Automatic News Feed:** Incorporate an automated news feed from various sources, keeping subscribers informed and updated on relevant news and developments.
+- **Central Government Applications:** Add relevant applications related to government programs, enhancing the platform's utility and functionality.
+- **Multilingual Support:** Control and manage multiple language support directly from the admin panel, making it easier to serve a diverse user base.
+- **Chatbot and Machine Learning:** Manage and control the chatbot, machine learning, and data modeling features, offering users an interactive and intelligent experience within the platform.
+- **Managing Health Facilities for T.B. :** Efficiently manage healthcare facilities within the platform, complete with configurable locations (State, District, Village, City including Latitude Longitude) and details about the services available at each location.
+- **KBase:** Provides cadre-specific learning content.
+- **Knowledge Quiz:** Offers proactive and planned assessments based on user activity.
+- **Query2CoE:** Enables users to raise queries related to TB treatment protocols and ensures timely responses through a structured ticketing system.
+- **Screening Tool:** Assists in early identification of potential TB cases.
 
 ## Tech Stack
 
@@ -221,12 +223,14 @@ graph TD
 
 ## Third-Party Documentation
 
-```
-1. Wati - https://docs.wati.io/reference/introduction
-2. Mail (Twilio SendGrid) - https://www.twilio.com/docs/sendgrid
-3. Firebase - https://www.npmjs.com/package/firebase-admin
-4. TextLocal - https://api.textlocal.in/docs/
-```
+| No. | Service       | Description                                                                        | Documentation Link                                                   |
+| --- | ------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| 1   | WATI          | WhatsApp messaging platform for customer communication and automation.             | [WATI API Reference](https://docs.wati.io/reference/introduction)    |
+| 2   | SendGrid Mail | Email delivery service used for transactional and marketing emails.                | [SendGrid by Twilio](https://www.twilio.com/docs/sendgrid)           |
+| 3   | Firebase      | Admin SDK for Firebase, used for server-side integrations like push notifications. | [firebase-admin (NPM)](https://www.npmjs.com/package/firebase-admin) |
+| 4   | TextLocal     | SMS gateway used for sending text messages to users.                               | [TextLocal API Docs](https://api.textlocal.in/docs/)                 |
+| 5   | NestJS        | Framework for building efficient and scalable Node.js server-side applications.    | [NestJS Official Docs](https://docs.nestjs.com/)                     |
+
 
 ## Links
 
