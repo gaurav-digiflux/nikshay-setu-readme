@@ -1,33 +1,42 @@
+ <p align="center">
+  <a href="https://nikshay-setu.in" target="_blank">
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Ni-kshay%20SETU&fontSize=50&fontAlign=50&fontAlignY=34" alt="Ni-kshay Setu banner"/>
+  </a>
+</p>
 <p align="center">
   <a href="https://nikshay-setu.in/" target="blank"><img src="https://nikshay-setu.in/newLogo.b72ac552416e2a050fc6c22c0491143e.svg" width="200" alt="Ni-Kshay SETU" /></a>
 </p>
 
 <div align="center">
 
-![Static Badge](https://img.shields.io/badge/Subscribers-44k-green)
-![Static Badge](https://img.shields.io/badge/Licence-GPL%203.0-blue)
+![Static Badge](https://img.shields.io/badge/Subscribers-44k-green?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Licence-GPL%203.0-blue?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Android%20%7C%20iOS-yellow?style=for-the-badge)
+
+![Languages](https://img.shields.io/badge/Languages-8-orange?style=for-the-badge)
 
 </div>
 
 ## Ni-Kshay SETU | Support to End Tuberculosis
 
-The Ni-Kshay SETU app (https://nikshay-setu.in/), already with 44K subscribers, empowers healthcare providers to make informed decisions and contributes to India's mission to combat tuberculosis. Available on web, Android, and iOS platforms in 8 languages, it offers real-time updates, interactive modules, and personalized insights, revolutionizing TB knowledge management and accessibility across India.
+The Ni-kshay Setu app ([https://nikshay-setu.in/](https://nikshay-setu.in/)), already with **44K+ subscribers**, empowers healthcare providers to make informed decisions and contributes to India's mission to combat tuberculosis. Available on [web](https://nikshay-setu.in/), [Android](https://play.google.com/store/apps/details?id=com.iiphg.tbapp&pli=1), and [iOS](https://apps.apple.com/in/app/ni-kshay-setu/id1631331386) platforms in 8 languages, it offers real-time updates, interactive modules, and personalized insights, revolutionizing TB knowledge management and accessibility across India.
 
 ## Table of Contents
 
-1. Introduction
-2. Features
-3. Technologies Used
-4. System Requirements
-5. Installation
-6. Configuration
-7. Usage
-8. Contribution Guidelines
-9. Test
-10. Swagger Docs Steps
-11. File Structure
-12. Third party Documentation
-13. License
+1. [Introduction](#1-introduction)
+2. [Features](#2-features)
+3. [Technologies Used](#3-technologies-used)
+4. [System Requirements](#4-system-requirements)
+5. [Installation](#5-installation)
+6. [Configuration](#6-configuration)
+7. [Usage](#7-usage)
+8. [Contribution Guidelines](#8-contribution-guidelines)
+9. [Test](#9-test)
+10. [Swagger Docs Steps](#10-swagger-docs-steps)
+11. [File Structure](#11-file-structure)
+12. [Third Party Documentation](#12-third-party-documentation)
+13. [License](#13-license)
 
 ## 1. Introduction
 
@@ -175,31 +184,35 @@ Example: nest generate resource Roles
 
 The application requires certain configuration settings to work correctly. The main configuration file is `.env`. Update the following settings based on your environment:
 
-- `MONGO_URL`: The MongoDB connection string used to connect your application to the MongoDB database.
-- `JWT_SECRET`: The secret key used to sign JWT tokens. Set a strong secret in production. The current description seems incorrect — this should be a secure string, not a boolean.
-- `TOKEN_EXPIRY`: Specifies how long JWT tokens should remain valid (e.g., 3600s, 1d).
-- `MAIL`: Configuration for your mailing service (e.g., SMTP settings or SendGrid credentials).
-- `AWS`: Configure the AWS settings.
-- `FIREBASE_CREDENTIALS`: Firebase service account credentials, typically a JSON string, used to initialize Firebase SDK for push notifications or Firebase auth. (This is duplicated; see below.)
-- `TEXTLOCAL_API_KEY`: API key for the TextLocal SMS provider. Used to send SMS notifications.
-- `TEXTLOCAL_API_ENDPOINT`: API endpoint URL for sending SMS via TextLocal.
-- `SMS_API_KEY_PROMOTION`: Possibly a separate API key or header used for promotional or OTP SMS.
-- `SLACK_WEBHOOK_URL`: Slack webhook URL for sending general application notifications to a Slack channel.
-- `SLACK_WEBHOOK_ALERTS_URL`: A special Slack webhook URL for sending alert notifications (e.g., system errors or ML model results).
-- `SYSTEM_QA_URL`: Likely a QA (quality assurance) environment URL for the system. 4 seems incorrect — probably should be a URL.
-- `CHATBOT_URL`: Endpoint for chatbot services. Current description refers to reCAPTCHA, but this seems off. Should be the chatbot’s backend URL.
-- `ASSESSMENT_URL`: Frontend URL used for sending automatic assessment-related notifications.
-- `NTEP_URL`: S Backend URL related to NTEP (possibly a health program or system).
-- `MANAGE_TB_URL`: Backend URL for managing TB (tuberculosis) cases.
-- `QUESTION_URL`: Backend URL for question management service.
-- `NTEP_CRED`: Credentials for accessing NTEP services/APIs.
-- `QUESTION_AUTH`: Authentication details for accessing question services. Likely a token or credential.
-- `COURSE_NTEP_API`: API URL for NTEP-related course content.
-- `CADRE_MAPPING_API`: URL for cadre-role mappings (possibly in a health or workforce training context).
-- `FRONTEND_URL`: The base URL of your frontend application (e.g., React).
-- `BACKEND_URL`: The base URL of your backend API (e.g., NestJS).
-- `WATI_AUTH_TOKEN`: Authentication token for WATI (WhatsApp API) used for sending WhatsApp messages.
-- `GOOGLE_API_KEY`: Used to access Google APIs like Maps, reCAPTCHA, etc.
+## Environment Variables
+
+| Variable Name              | Description                                                                          |
+| -------------------------- | ------------------------------------------------------------------------------------ |
+| `MONGO_URL`                | MongoDB connection string used by the app.                                           |
+| `JWT_SECRET`               | Secret key used to sign JWT tokens. Should be a strong, secure string in production. |
+| `TOKEN_EXPIRY`             | Expiry time for JWT tokens (e.g., `3600s`, `1d`).                                    |
+| `MAIL`                     | Configuration for the mailing service (e.g., SMTP or SendGrid).                      |
+| `AWS`                      | AWS configuration (access keys, region, etc.).                                       |
+| `FIREBASE_CREDENTIALS`     | Firebase service account JSON string for Firebase SDK.                               |
+| `TEXTLOCAL_API_KEY`        | API key for TextLocal (SMS provider).                                                |
+| `TEXTLOCAL_API_ENDPOINT`   | Endpoint URL for sending SMS through TextLocal.                                      |
+| `SMS_API_KEY_PROMOTION`    | API key for sending promotional or OTP SMS.                                          |
+| `SLACK_WEBHOOK_URL`        | Slack webhook for general notifications.                                             |
+| `SLACK_WEBHOOK_ALERTS_URL` | Slack webhook for alerts (e.g., errors, model results).                              |
+| `SYSTEM_QA_URL`            | URL of the QA (testing) environment.                                                 |
+| `CHATBOT_URL`              | Backend endpoint for chatbot services.                                               |
+| `ASSESSMENT_URL`           | Frontend URL used for assessment notifications.                                      |
+| `NTEP_URL`                 | Backend URL related to NTEP services.                                                |
+| `MANAGE_TB_URL`            | Backend for managing TB (tuberculosis) workflows.                                    |
+| `QUESTION_URL`             | URL for question management service.                                                 |
+| `NTEP_CRED`                | Credentials for accessing NTEP services/APIs.                                        |
+| `QUESTION_AUTH`            | Auth token or credential for question service.                                       |
+| `COURSE_NTEP_API`          | API URL for NTEP-related course content.                                             |
+| `CADRE_MAPPING_API`        | URL for cadre-role mappings.                                                         |
+| `FRONTEND_URL`             | Base URL for your frontend (e.g., React app).                                        |
+| `BACKEND_URL`              | Base URL for your backend API (e.g., NestJS).                                        |
+| `WATI_AUTH_TOKEN`          | Auth token for WATI (WhatsApp messaging API).                                        |
+| `GOOGLE_API_KEY`           | Google API key (e.g., for Maps or reCAPTCHA).                                        |
 
 ## 7. Usage
 
