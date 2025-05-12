@@ -58,6 +58,8 @@ Ni-Kshay SETU is a groundbreaking digital solution available as a web applicatio
 
 > The Ni-Kshay SETU app is part of the 'Closing the Gaps in TB care Cascade (CGC)' project, developed by the Indian Institute of Public Health, Gandhinagar (https://iiphg.edu.in/). This project aims to strengthen health systems' ability to comprehensively monitor and respond to the TB care cascade with quality improvement (QI) interventions. This digital solution is one of the key interventions of the project with the objectives to strengthen the knowledge support system of the health staff in TB patient-centric care and program management of the National TB Elimination Program.
 
+> IIPHG, The Union, and NTEP are proud partners in the development and implementation of Ni-Kshay SETU.
+
 > Technological support for this project is provided by Digiflux Technologies Pvt. Ltd. (https://www.digiflux.io), contributing to the development and implementation of the digital solution.
 
 ## Features
