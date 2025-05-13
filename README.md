@@ -234,7 +234,7 @@ graph TD
 ## Links
 
 * [Backend-V2](https://github.com/iiph-gandhinagar/Ni-Kshay-SETU-Backend-V2)
-* [Ni-Kshay-SETU-Frontend-V2](https://github.com/iiph-gandhinagar/Ni-Kshay-SETU-Frontend-V2)
+* [Frontend-V2](https://github.com/iiph-gandhinagar/Ni-Kshay-SETU-Frontend-V2)
 * [Admin-Panel-V2](https://github.com/iiph-gandhinagar/Ni-Kshay-SETU-Admin-Panel-V2)
 * [Chatbot-Plugin-V2](https://github.com/iiph-gandhinagar/Ni-Kshay-SETU-Chatbot-Plugin-V2)
 * [ProActive-Assessment-Plugin-V2](https://github.com/iiph-gandhinagar/Ni-Kshay-SETU-ProActive-Assessment-Plugin-V2)
